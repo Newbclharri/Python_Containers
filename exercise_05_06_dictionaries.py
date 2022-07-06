@@ -7,6 +7,7 @@ foods = ("Crawfish", "Truffle", "Cauliflower", "Seaweed")
 ###############
 ## Exercise 05
 ###############
+# Iterate over the key: value pairs in home_townand print a string for each item, for example:
 
 home_town = {
     "city": "Arcadia",
@@ -22,8 +23,9 @@ print("\n---------------------------------------------------------------\n")
 ###############
 ## Exercise 06
 ###############
-
-cohort = []
+# Create an empty list named cohort.
+# Using a forloop, add one dictionary to the cohortlist for each student name. Each dictionary should have this shape:
+# cohort = []
 
 for i in range(len(students)):
     cohort.append({
